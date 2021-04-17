@@ -59,7 +59,6 @@ header {
   div {
      font-size: 20px;
      padding: 100px;
-     max-width: auto;
      height: 290px;  
      border: 1px solid black;
      background-color: #98B6E4;
@@ -71,7 +70,7 @@ header {
  
 
   ol #insignias {      
-     width: 930px;
+     width: auto;
      padding: 50px;
      margin-left: 400px;
      overflow: hidden;
@@ -85,7 +84,7 @@ header {
   li .insigniasEsquerda {
       float: left;
       text-align: left;
-      width: 190px;
+      width: 180px;
       height: 10px;
       margin-top: 0px;
 }
@@ -93,7 +92,7 @@ header {
   li .insigniasCentro {  
       float: left;
       text-align: center;
-      width: 620px;
+      width: 800px;
       height: 10px;
       margin-top: 0px;
 }
@@ -101,7 +100,7 @@ header {
    li .insigniasDireita {
       float: left;
       text-align: right;
-      width: 250px;
+      width: 240px;
       height: 10px;
       margin-top: 0px;
 } 
