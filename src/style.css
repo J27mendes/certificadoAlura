@@ -59,7 +59,7 @@ header {
   div {
      font-size: 20px;
      padding: 100px;
-     height: 290px;  
+     height: 380px;  
      border: 1px solid black;
      background-color: #98B6E4;
      border-radius: 5px;
@@ -84,25 +84,25 @@ header {
   li .insigniasEsquerda {
       float: left;
       text-align: left;
-      width: 180px;
+      width: auto;
       height: 10px;
-      margin-top: 0px;
+      margin-top: 0px; 
 }
 
   li .insigniasCentro {  
-      float: left;
-      text-align: center;
-      width: 800px;
+      position: absolute;
+      left: 50%;
+      right: 50%;
       height: 10px;
       margin-top: 0px;
 }
 
    li .insigniasDireita {
-      float: left;
-      text-align: right;
-      width: 240px;
-      height: 10px;
-      margin-top: 0px;
+       float: right;
+       text-align: right;
+       width: auto;
+       height: 10px;
+       margin-top: 0px;
 } 
   
     img {
