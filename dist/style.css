@@ -77,6 +77,12 @@ header {
      list-style: none;
 }
 
+li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+
   li {
       margin-top: 20px;
 }
@@ -86,7 +92,7 @@ header {
       text-align: left;
       width: auto;
       height: 10px;
-      margin-top: 0px; 
+      margin-top: 0px;      
 }
 
   li .insigniasCentro {  
@@ -95,20 +101,16 @@ header {
       right: 50%;
       height: 10px;
       margin-top: 0px;
-}
+      }
 
    li .insigniasDireita {
-       float: right;
-       text-align: right;
-       width: auto;
-       height: 10px;
-       margin-top: 0px;
-<<<<<<< HEAD
+      float: right;
+      text-align: right;
+      width: auto;
+      height: 10px;
+      margin-top: 0px;
 } 
   
-=======
-}  
->>>>>>> 75dec3eddc9a0735daa5b4f0fac0cbf1b0ca40bd
     img {
       width: 250px;
       height: 250px;
